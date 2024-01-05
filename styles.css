@@ -66,6 +66,10 @@ nav {
     gap: 16px;
 }
 
+.nav-links {
+    gap: 16px;
+}
+
 .hover-link {
     cursor: pointer;
 }
