@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home || News Trends</title>
     <link rel="stylesheet" href="styles.css">
+    <meta property="og:image" content="https://yt3.ggpht.com/H8CkmwojlNpopaQAOJVo5kFY4gktF3GmepjGhFTtUKmm-fKSc4kU6hFIjNzjYGoglB1RHpqfDA=s88-c-k-c0x00ffffff-no-rj">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:width" content="426" >
+    <meta property="og:height" content="228" >
 </head>
 <body>
     <nav>
@@ -12,17 +16,17 @@
             <a href="index.html" class="company-logo">
                 <img src="./assets/favicon.png" alt="company logo">
             </a>
-            <div class="nav-links">
+            <div class="nav-links flex">
                 <ul class="flex">
                     <li class="hover-link nav-item" id="ipl" onclick="onNavItemClick('ipl')">IPL 2024</li>
                     <li class="hover-link nav-item" id="international" onclick="onNavItemClick('international')">Foriegn</li>
                     <li class="hover-link nav-item" id="india" onclick="onNavItemClick('india')">National</li>
                     <li class="hover-link nav-item" id="finance" onclick="onNavItemClick('finance')">Finance</li>
                 </ul>
-            </div>
-            <div class="search-bar flex">
-                <input type="text" id="news-input" placeholder="e.g. Science" class="news-input">
-                <button class="search-button" id="search-button">Search</button>
+                <div class="search-bar flex">
+                    <input type="text" id="news-input" placeholder="e.g. Science" class="news-input">
+                    <button class="search-button" id="search-button">Search</button>
+                </div>
             </div>
         </div>
     </nav>
